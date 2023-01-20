@@ -11,24 +11,19 @@ Esta prueba consiste en:
 
 Verificar que NodeJS este instalado.
 
-Instalar ApolloServer/Graphql
-
-[Apollo] (https://www.apollographql.com/docs/apollo-server/getting-started/)
+Instalar dependencias
 
 ```bash
-npm install @apollo/server graphql
+npm install
 ```
-Crear un archivo index.js
-
-```touch index.js```
-
-Reemplazar dentro del package json generado las props type,scripts, para cargar modulos y files de JavaScript como modulos.
 
 ## Graphql Informacion basica
 
 1. typeDef/Schemas, se utilizan para describir y darle forma a la data.
 2. Query type, objeto especial que define entrypoints del lado del cliente (Read).
 3. Mutations, acciones para modificar nuestra data (CRUD).
+
+[Apollo] (https://www.apollographql.com/docs/apollo-server/getting-started/)
 
 ## Uso
 
